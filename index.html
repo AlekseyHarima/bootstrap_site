@@ -12,7 +12,6 @@
 <!-- navbar -->
 <nav class="navbar navbar-expand-md fixed-top">
     <a href="#" class="navbar-brand">Home</a>
-
     <!-- burger menu should be here   -->
     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent">
         <span class="fa fa-bars"></span>
@@ -139,6 +138,48 @@
     </div>
 </div>
 
+<!-- contact -->
+<div class="contact-form mt-5" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <h1>Contact us</h1>
+                <p>Phone: <span itemprop="telephone">
+                    <a href="tel:+72367856239">+7(236)7856239</a>
+                </span></p>
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A8ccdfd2ad8e255691a8bd03bdb0e5de25dd2da0bbf01f34374dc352a0f13f074&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+            </div>
+            <div class="col-sm-12 col-md-8">
+                <form action="">
+                    <div class="form-group">
+                        <label for="name" class="w-100">Name:
+                            <input type="text" id="name" class="form-control form-control-lg" placeholder="Input your name" name="name" required autocomplete="off">
+                        </label>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" class="form-control form-control-lg" placeholder="Input your email" required autocomplete="off" name="email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="tel" class="w-100">Phone:
+                            <input type="tel" id="tel" class="form-control form-control-lg" placeholder="+7" required autocomplete="off" name="tel" autocomplete="off">
+                        </label>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="comment" class="w-100">Комментарий:
+                            <textarea class="d-block w-100" name="comment" id="comment" cols="30" rows="5"></textarea>
+                        </label>
+                    </div>
+
+                    <input type="submit" class="btn btn-secondary btn-block" value="Send" name="send">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -147,5 +188,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/imask/6.0.7/imask.min.js" integrity="sha512-qCt/OTd55ilhuXLRNAp/G8uONXUrpFoDWsXDtyjV4wMbvh46dOEjvHZyWkvnffc6I2g/WHSKsaFUCm0RISxnzQ==" crossorigin="anonymous"></script>
+<script src="js/anchor.js"></script>
 </body>
 </html>
