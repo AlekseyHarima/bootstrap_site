@@ -43,7 +43,7 @@ h1 {
     position: absolute;
     bottom: 24px;
     width: 90%;
-    border-top-right-radius: 93%;
+    border-top-right-radius: 55%;
     transition: 0.3s ease-in-out;
 }
 
@@ -51,11 +51,9 @@ h1 {
     height: 100%;
     background-color: rgba(174, 224, 207, 0.4);
     border-top-right-radius: 0;
-    padding: 5rem;
+    padding: 2rem;
     top: 0;
 }
-
-
 
 /* team end */
 
